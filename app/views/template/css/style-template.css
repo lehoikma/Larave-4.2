@@ -1,0 +1,144 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@media screen and (max-width: 720px) {
+.slide .bx-wrapper .bx-pager{
+	display: none;
+}
+.anh{display: none;}
+}
+.mh-widget{margin-bottom: 25px;overflow: hidden;}
+.widget-tit{padding-bottom: 5px;
+    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
+    text-transform: uppercase;
+    border-bottom: 3px solid red;font-weight: bold;}
+    .search-form{    display: block;
+    margin: 0 auto;
+    padding: 5%;
+    background: #f5f5f5;
+}
+    .search-field{    position: relative;
+    padding: 10px;
+    margin: 0;
+    border: 1px solid #ebebeb;
+    background: #fff;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+    border-radius: 0;width: 100%;}
+.widget-search{margin-bottom: 20px;}
+.mh-ad-spot{    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 12px;
+    background: #f5f5f5;}
+.slide .bx-wrapper .bx-pager{    position: absolute;
+    top: 330px;
+}
+.custom-post-item .custom-post-thumb{margin-right: 0px;}
+.custom-post-title{font-weight: 700;line-height: 1.3;margin-bottom: 5px;margin-bottom: .3125rem;}
+.custom-post-title a:hover{color:#e64946;}
+.baoquat-post p{color: #9D9D9D;font-family: italic;font-size: 12px;}
+a:hover{text-decoration: none;}
+.custom-post-widget .custom-post-item{border-bottom: 1px dotted #ebebeb;margin: 0;padding: 0;    padding-bottom: 10px;
+    padding-top: 10px;}
+.tab a{display: inline-block;
+    font-size: 12px !important;
+   
+    font-weight: 700;
+    color: #fff;
+    padding: 5px 10px;
+    margin: 0 4px 8px 0;
+    white-space: nowrap;
+    text-transform: uppercase;background-color: #2a2a2a;}
+.tab a:hover{color:#fff;background-color: red; text-decoration: none;}
+.nav li{text-transform: uppercase;font-weight: bold;color: #fff;}
+.widget-tit a{color:black;font-weight: bold;}
+.widget-tit a:hover{color:red;text-decoration: none;}
+.footer{background-color: #2a2a2a;}
+.footer-cuoi{color: white;    font-weight: bold;padding: 10px;
+    font-size: 15px;}
+.footer-cot{border-bottom: 2px solid #999999;}
+.footer-cot li a{color: white;}
+.footer-cot li{border-bottom: 1px dotted #ebebeb; margin-top: 10px;padding-bottom: 10px;}
+.footer-bottom{margin-top: 10px; margin-left: 10px;}
+.footer-bottom p{color: #696969;}
+.anh{background-color: #EEEEEE;text-align: center;margin: 20px 0px;}
+.page-title{font-size: 1.5rem;
+    padding: 10px 20px;
+    background: #f5f5f5;
+    /* padding: 10px; */
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;   
+}
+.custom-title a{color:black;font-weight: bold;font-size: 22px;}
+.custom-title a:hover{color:red; text-decoration: none;}
+.ar-title p{color: #9D9D9D;
+    font-family: italic;
+    font-size: 13px;}
+    .article{border-bottom: 1px solid #ebebeb;}
+   
+.navbar-inverse .navbar-nav>li>a{color: white !important;}
+.navbar-inverse .navbar-nav>li>a:hover{color: #E64946 !important;}
+.entry-title{border-bottom: 1px solid;
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 10px;}
+    .entry-meta{background-color: whitesmoke;    margin-bottom: 20px;
+    padding: 3px 0px;}
+.entry-meta a:hover{color: red; text-decoration: none;}
+.entry-thumb img{max-width: 100%; width:720px;margin-bottom: 20px; }
+.entry-ketluan{background-color: whitesmoke;padding: 20px; text-align: center;font-style: italic;font-size: 17px;margin-top: 20px;}
+.entry-body{margin-bottom: 20px;}
+.comment{    background-color: whitesmoke;}
+.comment form{    padding: 10px;}
+.comment-reply-title{padding: 10px;}
