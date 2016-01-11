@@ -67,3 +67,18 @@ Route::get('add-cate','TemplateController@addcate');
 Route::post('post-cate','TemplateController@postcate');
 
 Route::get('test-tt','TemplateController@layout');
+
+
+// Tài sáng
+Route::group(['prefix' => 'taisang'], function()
+{
+	Route::get('/', function()
+	{
+		// Artisan::call('laytintuc:zing');
+		// $img = file_get_contents('http://img.v3.news.zdn.vn/w210/Uploaded/neg_ysfyrns/2016_01_06/7_thumb.jpg');
+		// file_put_contents( 'public/img/tin-tuc/'.md5(time()).'.jpg', $img);
+
+		echo Str::slug('Những hoạt động ngày Tết hút giới trẻ');
+	});
+});
+// end Tài sáng

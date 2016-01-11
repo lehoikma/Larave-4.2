@@ -4,115 +4,9 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "683b0c5cfa58c2a62b860f5ef44f02f3",
-    "content-hash": "2b5008e35b1aee1e217c4a9ade7d37f2",
+    "hash": "62d945ad6ba333223671e6288cee2a73",
+    "content-hash": "e9276a9386922af6d4caecba63bc5f80",
     "packages": [
-        {
-            "name": "barryvdh/elfinder-builds",
-            "version": "v2.1.0.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/barryvdh/elfinder-builds.git",
-                "reference": "f11eb97d55ad16cdb96b6e41c2d9ffc4e697303c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/barryvdh/elfinder-builds/zipball/f11eb97d55ad16cdb96b6e41c2d9ffc4e697303c",
-                "reference": "f11eb97d55ad16cdb96b6e41c2d9ffc4e697303c",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.2"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.1-dev"
-                }
-            },
-            "autoload": {
-                "classmap": [
-                    "php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Dmitry Levashov",
-                    "email": "dio@std42.ru",
-                    "homepage": "http://std42.ru"
-                },
-                {
-                    "name": "Troex Nevelin",
-                    "email": "troex@fury.scancode.ru",
-                    "homepage": "http://std42.ru"
-                },
-                {
-                    "name": "Naoki Sawada",
-                    "email": "hypweb@gmail.com",
-                    "homepage": "http://xoops.hypweb.net"
-                },
-                {
-                    "name": "Community contributions",
-                    "homepage": "https://github.com/Studio-42/elFinder/contributors"
-                }
-            ],
-            "description": "File manager for web",
-            "homepage": "http://elfinder.org",
-            "time": "2015-06-25 06:56:25"
-        },
-        {
-            "name": "barryvdh/laravel-elfinder",
-            "version": "v0.2.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/barryvdh/laravel-elfinder.git",
-                "reference": "4c53acf5dfec47305699a9a4ff7bd9621684f2f3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/barryvdh/laravel-elfinder/zipball/4c53acf5dfec47305699a9a4ff7bd9621684f2f3",
-                "reference": "4c53acf5dfec47305699a9a4ff7bd9621684f2f3",
-                "shasum": ""
-            },
-            "require": {
-                "barryvdh/elfinder-builds": "2.1.x",
-                "illuminate/support": "4.x|5.0.x",
-                "php": ">=5.3.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "0.2-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Barryvdh\\Elfinder\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Barry vd. Heuvel",
-                    "email": "barryvdh@gmail.com"
-                }
-            ],
-            "description": "A Laravel Package to integrate elFinder 2",
-            "keywords": [
-                "elfinder",
-                "filebrowser",
-                "laravel",
-                "tinymce"
-            ],
-            "time": "2014-12-03 09:52:44"
-        },
         {
             "name": "classpreloader/classpreloader",
             "version": "1.0.2",
@@ -162,23 +56,25 @@
         },
         {
             "name": "d11wtq/boris",
-            "version": "v1.0.10",
+            "version": "v1.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/borisrepl/boris.git",
-                "reference": "31055b15e2d3fe47f31f6aa8e277f8f3fc7eb483"
+                "reference": "125dd4e5752639af7678a22ea597115646d89c6e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/borisrepl/boris/zipball/31055b15e2d3fe47f31f6aa8e277f8f3fc7eb483",
-                "reference": "31055b15e2d3fe47f31f6aa8e277f8f3fc7eb483",
+                "url": "https://api.github.com/repos/borisrepl/boris/zipball/125dd4e5752639af7678a22ea597115646d89c6e",
+                "reference": "125dd4e5752639af7678a22ea597115646d89c6e",
                 "shasum": ""
             },
             "require": {
+                "php": ">=5.3.0"
+            },
+            "suggest": {
                 "ext-pcntl": "*",
                 "ext-posix": "*",
-                "ext-readline": "*",
-                "php": ">=5.3.0"
+                "ext-readline": "*"
             },
             "bin": [
                 "bin/boris"
@@ -190,11 +86,7 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "A tiny, but robust REPL (Read-Evaluate-Print-Loop) for PHP.",
-            "time": "2015-03-01 08:05:19"
+            "time": "2014-01-17 12:21:18"
         },
         {
             "name": "filp/whoops",
@@ -253,55 +145,6 @@
                 "zf2"
             ],
             "time": "2015-06-29 05:42:04"
-        },
-        {
-            "name": "frknikiz/laravel-quick-elfinder",
-            "version": "1.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/frknikiz/laravel-quick-elfinder.git",
-                "reference": "6bfd3049b93cf5e8c2830eb60e5adea453a59329"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/frknikiz/laravel-quick-elfinder/zipball/6bfd3049b93cf5e8c2830eb60e5adea453a59329",
-                "reference": "6bfd3049b93cf5e8c2830eb60e5adea453a59329",
-                "shasum": ""
-            },
-            "require": {
-                "barryvdh/laravel-elfinder": "0.2.*",
-                "illuminate/support": "4.2.*",
-                "php": ">=5.4.0"
-            },
-            "type": "library",
-            "autoload": {
-                "classmap": [
-                    "src/config",
-                    "src/views"
-                ],
-                "psr-0": {
-                    "Frknikiz\\CustomElfinder\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "Furkan İkiz",
-                    "email": "frknikiz@gmail.com"
-                }
-            ],
-            "description": "Laravel Quick Elfinder package allows you to use Elfinder quickly.",
-            "keywords": [
-                "elfinder",
-                "laravel",
-                "laravel4.2",
-                "package",
-                "quick"
-            ],
-            "time": "2015-08-03 09:41:38"
         },
         {
             "name": "ircmaxell/password-compat",
@@ -971,6 +814,49 @@
             "time": "2014-11-23 20:37:11"
         },
         {
+            "name": "sunra/php-simple-html-dom-parser",
+            "version": "v1.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sunra/php-simple-html-dom-parser.git",
+                "reference": "a0b80ace086c7e09085669205e1b3c2c9c7a453c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sunra/php-simple-html-dom-parser/zipball/a0b80ace086c7e09085669205e1b3c2c9c7a453c",
+                "reference": "a0b80ace086c7e09085669205e1b3c2c9c7a453c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Sunra\\PhpSimple\\HtmlDomParser": "Src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "sunra",
+                    "email": "sunra@yandex.ru",
+                    "homepage": "http://github.com/sunra"
+                }
+            ],
+            "description": "Composer adaptation of: A HTML DOM parser written in PHP5+ let you manipulate HTML in a very easy way! Require PHP 5+. Supports invalid HTML. Find tags on an HTML page with selectors just like jQuery. Extract contents from HTML in a single line.",
+            "homepage": "https://github.com/sunra/php-simple-html-dom-parser",
+            "keywords": [
+                "dom",
+                "html",
+                "parser"
+            ],
+            "time": "2013-05-04 14:32:03"
+        },
+        {
             "name": "swiftmailer/swiftmailer",
             "version": "v5.4.1",
             "source": {
@@ -1245,24 +1131,24 @@
         },
         {
             "name": "symfony/dom-crawler",
-            "version": "v2.5.12",
+            "version": "v2.5.1",
             "target-dir": "Symfony/Component/DomCrawler",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dom-crawler.git",
-                "reference": "3860edcf7ff7e173cfe2151f0d425e610e77cc35"
+                "reference": "91123952ba618685c240ef8a2d34acb31c7a75ef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/dom-crawler/zipball/3860edcf7ff7e173cfe2151f0d425e610e77cc35",
-                "reference": "3860edcf7ff7e173cfe2151f0d425e610e77cc35",
+                "url": "https://api.github.com/repos/symfony/dom-crawler/zipball/91123952ba618685c240ef8a2d34acb31c7a75ef",
+                "reference": "91123952ba618685c240ef8a2d34acb31c7a75ef",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
             },
             "require-dev": {
-                "symfony/css-selector": "~2.3"
+                "symfony/css-selector": "~2.0"
             },
             "suggest": {
                 "symfony/css-selector": ""
@@ -1294,7 +1180,7 @@
             ],
             "description": "Symfony DomCrawler Component",
             "homepage": "http://symfony.com",
-            "time": "2015-01-03 08:01:13"
+            "time": "2014-07-08 12:21:33"
         },
         {
             "name": "symfony/event-dispatcher",

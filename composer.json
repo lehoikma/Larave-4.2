@@ -6,8 +6,7 @@
 	"require": {
 		"laravel/framework": "4.2.*",
 	  	"way/generators": "~2.0",
-		"frknikiz/laravel-quick-elfinder": "^1.1",
-	  "frknikiz/laravel-quick-elfider":"dev-master"
+		"sunra/php-simple-html-dom-parser": "^1.5"
 	},
 	"autoload": {
 		"classmap": [
